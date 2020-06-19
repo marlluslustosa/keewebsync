@@ -47,7 +47,7 @@ For security reasons, the entire project will be done by compiling the image loc
 
 First, you must change the [docker-compose.yml](./docker-compose.yml) file according to your needs. For example, change the locations where the dropbox volumes will be mounted.
 
-```docker
+```yml
 version: '3.3'
 
 services:
