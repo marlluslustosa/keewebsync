@@ -161,7 +161,7 @@ The localhost can be changed to a name that can be included in the local DNS ser
 
 - The entire connection is encrypted via HTTPS.
 
-- As the page is static, it does not contain loopholes from traditional vulnerabilities, such as * jql injection * attacks or the possibility of executing remote code on the server, using * back-end * languages. All the code works on top of HTML, CSS and JavaScript, only.
+- As the page is static, it does not contain loopholes from traditional vulnerabilities, such as *jql injection* attacks or the possibility of executing remote code on the server, using *back-end* languages. All the code works on top of HTML, CSS and JavaScript, only.
 
 For added security, you can still add a complementary key file to open the kdbx file. Ask the user who manipulates the password bank to create a key file to open the file, in addition to the symmetric password entered. Then, this file can be shared offline for everyone who will have access to the bank, further increasing the security of the solution.
 
