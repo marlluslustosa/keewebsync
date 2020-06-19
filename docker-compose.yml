@@ -1,0 +1,57 @@
+version: '3.3'
+
+services:
+  keewebsync:
+    build:
+      context: .
+    container_name: keewebsync
+    environment:
+      LDAPDRCIP: 10.20.1.2 #ip ldap 
+      LDAPDRCBASEDN: dc=smb,dc=OTR,dc=br # ldap basedn
+      LDAPDRCBINDDN: cn=Administrator,cn=Users,dc=smb,dc=OTR,dc=br # bindn do servidor ldap
+      KDBXNAME: keepasskdbx # database name (without extension .kdbx)
+    env_file:
+      ldapdrcpw.env # ldap server access credentials
+    ports:
+      - "8080:443"
+    volumes:
+      - type: bind
+        source: ./dropbox-main/KDBXFolderName # dropbox folder where kdbx will be (change to your choice)
+        target: /var/www/html/webdav/ # don't change
+        read_only: true
+      - type: bind
+        source: /etc/localtime # local time folder
+        target: /etc/localtime # don't change
+        read_only: true
+      - type: bind
+        source: ./keewebsync.pem # pem file (generated in the previous step)
+        target: /etc/lighttpd/keewebsync.pem # don't change
+        read_only: true
+    networks:
+      - keewebsync-net
+    depends_on:
+      - dropbox
+
+  dropbox:
+    build:
+      context: ./docker-dropbox
+    container_name: dropbox
+    environment:
+      DBOX_UID: 1000 # default. type "$ id " to know which default id
+      DBOX_GID: 1000 # default. type "$ id " to know which default id
+    volumes:
+      - type: bind
+        source: /etc/localtime # local time folder
+        target: /etc/localtime # don't change
+      - type: bind
+        source: ./dropbox-settings # settings dropbox account
+        target: /opt/dropbox/.dropbox # don't change
+      - type: bind
+        source: ./dropbox-main # dropbox box main (where will the kdbx file be)
+        target: /opt/dropbox/Dropbox # don't change
+    networks:
+      - keewebsync-net
+
+networks:
+  keewebsync-net:
+    driver: 'bridge'

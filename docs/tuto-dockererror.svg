@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 856 461" width="856" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="107" rows="27"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 13944ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+1.169%{transform:translateY(-476px)}
+7.652%{transform:translateY(-952px)}
+8.333%{transform:translateY(-1428px)}
+9.050%{transform:translateY(-1904px)}
+9.782%{transform:translateY(-2380px)}
+10.320%{transform:translateY(-2856px)}
+11.912%{transform:translateY(-3332px)}
+12.478%{transform:translateY(-3808px)}
+13.554%{transform:translateY(-4284px)}
+13.812%{transform:translateY(-4760px)}
+14.766%{transform:translateY(-5236px)}
+15.591%{transform:translateY(-5712px)}
+17.728%{transform:translateY(-6188px)}
+18.832%{transform:translateY(-6664px)}
+19.442%{transform:translateY(-7140px)}
+19.944%{transform:translateY(-7616px)}
+20.417%{transform:translateY(-8092px)}
+21.127%{transform:translateY(-8568px)}
+22.031%{transform:translateY(-9044px)}
+27.166%{transform:translateY(-9520px)}
+28.335%{transform:translateY(-9996px)}
+31.562%{transform:translateY(-10472px)}
+32.573%{transform:translateY(-10948px)}
+52.969%{transform:translateY(-11424px)}
+59.768%{transform:translateY(-11900px)}
+65.476%{transform:translateY(-12376px)}
+74.498%{transform:translateY(-12852px)}
+74.541%{transform:translateY(-13328px)}
+74.641%{transform:translateY(-13804px)}
+75.437%{transform:translateY(-14280px)}
+85.621%{transform:translateY(-14756px)}
+92.828%{transform:translateY(-15232px)}
+100.000%{transform:translateY(-15232px)}
+            }
+
+            #screen_view {
+                animation-duration: 13944ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               PowerShell colors based on https://en.wikipedia.org/wiki/ANSI_escape_code#Colors */
+            .foreground {fill: #cccccc;}
+            .background {fill: #0c0c0c;}
+            .color0 {fill: #0c0c0c;}
+            .color1 {fill: #c50f1f;}
+            .color2 {fill: #13a10e;}
+            .color3 {fill: #c19c00;}
+            .color4 {fill: #0037da;}
+            .color5 {fill: #881798;}
+            .color6 {fill: #3a96dd;}
+            .color7 {fill: #cccccc;}
+            .color8 {fill: #767676;}
+            .color9 {fill: #e74856;}
+            .color10 {fill: #16c60c;}
+            .color11 {fill: #f9f1a5;}
+            .color12 {fill: #3b78ff;}
+            .color13 {fill: #b4009e;}
+            .color14 {fill: #61d6d6;}
+            .color15 {fill: #f2f2f2;}
+        </style>
+    </defs>
+    <svg id="screen" width="856" height="459" viewBox="0 0 856 459" preserveAspectRatio="xMidYMin slice">
+    <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text class="background" textLength="8" x="0"> </text></g><g id="g2"><text class="foreground" textLength="224" x="0">[lulu@farmtest keewebsync]$ </text><text class="background" textLength="8" x="224"> </text></g><g id="g3"><text class="foreground" textLength="232" x="0">[lulu@farmtest keewebsync]$ s</text><text class="background" textLength="8" x="232"> </text></g><g id="g4"><text class="foreground" textLength="240" x="0">[lulu@farmtest keewebsync]$ su</text><text class="background" textLength="8" x="240"> </text></g><g id="g5"><text class="foreground" textLength="248" x="0">[lulu@farmtest keewebsync]$ sud</text><text class="background" textLength="8" x="248"> </text></g><g id="g6"><text class="foreground" textLength="256" x="0">[lulu@farmtest keewebsync]$ sudo</text><text class="background" textLength="8" x="256"> </text></g><g id="g7"><text class="foreground" textLength="264" x="0">[lulu@farmtest keewebsync]$ sudo </text><text class="background" textLength="8" x="264"> </text></g><g id="g8"><text class="foreground" textLength="272" x="0">[lulu@farmtest keewebsync]$ sudo d</text><text class="background" textLength="8" x="272"> </text></g><g id="g9"><text class="foreground" textLength="280" x="0">[lulu@farmtest keewebsync]$ sudo do</text><text class="background" textLength="8" x="280"> </text></g><g id="g10"><text class="foreground" textLength="288" x="0">[lulu@farmtest keewebsync]$ sudo doc</text><text class="background" textLength="8" x="288"> </text></g><g id="g11"><text class="foreground" textLength="296" x="0">[lulu@farmtest keewebsync]$ sudo dock</text><text class="background" textLength="8" x="296"> </text></g><g id="g12"><text class="foreground" textLength="304" x="0">[lulu@farmtest keewebsync]$ sudo docke</text><text class="background" textLength="8" x="304"> </text></g><g id="g13"><text class="foreground" textLength="312" x="0">[lulu@farmtest keewebsync]$ sudo docker</text><text class="background" textLength="8" x="312"> </text></g><g id="g14"><text class="foreground" textLength="320" x="0">[lulu@farmtest keewebsync]$ sudo docker-</text><text class="background" textLength="8" x="320"> </text></g><g id="g15"><text class="foreground" textLength="328" x="0">[lulu@farmtest keewebsync]$ sudo docker-c</text><text class="background" textLength="8" x="328"> </text></g><g id="g16"><text class="foreground" textLength="336" x="0">[lulu@farmtest keewebsync]$ sudo docker-co</text><text class="background" textLength="8" x="336"> </text></g><g id="g17"><text class="foreground" textLength="344" x="0">[lulu@farmtest keewebsync]$ sudo docker-com</text><text class="background" textLength="8" x="344"> </text></g><g id="g18"><text class="foreground" textLength="352" x="0">[lulu@farmtest keewebsync]$ sudo docker-comp</text><text class="background" textLength="8" x="352"> </text></g><g id="g19"><text class="foreground" textLength="360" x="0">[lulu@farmtest keewebsync]$ sudo docker-compo</text><text class="background" textLength="8" x="360"> </text></g><g id="g20"><text class="foreground" textLength="384" x="0">[lulu@farmtest keewebsync]$ sudo docker-compose </text><text class="background" textLength="8" x="384"> </text></g><g id="g21"><text class="foreground" textLength="392" x="0">[lulu@farmtest keewebsync]$ sudo docker-compose u</text><text class="background" textLength="8" x="392"> </text></g><g id="g22"><text class="foreground" textLength="400" x="0">[lulu@farmtest keewebsync]$ sudo docker-compose up</text><text class="background" textLength="8" x="400"> </text></g><g id="g23"><text class="foreground" textLength="400" x="0">[lulu@farmtest keewebsync]$ sudo docker-compose up</text></g><g id="g24"><text class="foreground" textLength="192" x="0">[sudo] senha para lulu: </text><text class="background" textLength="8" x="192"> </text></g><g id="g25"><text class="foreground" textLength="192" x="0">[sudo] senha para lulu: </text></g><g id="g26"><text class="foreground" textLength="520" x="0">Creating network "keewebsync_keewebsync-net" with driver "bridge"</text></g><g id="g27"><text class="foreground" textLength="168" x="0">Creating dropbox ... </text></g><g id="g28"><text class="foreground" textLength="168" x="0">Creating dropbox ... </text><text class="color2" textLength="32" x="168">done</text><text class="foreground" textLength="656" x="200">                                                                                  </text></g><g id="g29"><text class="foreground" textLength="192" x="0">Creating keewebsync ... </text></g><g id="g30"><text class="foreground" textLength="192" x="0">Creating keewebsync ... </text><text class="color1" textLength="40" x="192">error</text><text class="foreground" textLength="624" x="232">                                                                              </text></g><g id="g31"><text class="foreground" textLength="856" x="0">ERROR: for keewebsync  Cannot create container for service keewebsync: invalid mount config for type "bind"</text></g><g id="g32"><text class="foreground" textLength="688" x="0">: bind source path does not exist: /home/lulu/repositorios_git/keewebsync/dropbox-main</text></g><g id="g33"><text class="color1" textLength="40" x="0">ERROR</text><text class="foreground" textLength="408" x="40">: Encountered errors while bringing up the project.</text></g><g id="g34"><text class="foreground" textLength="240" x="0">[lulu@farmtest keewebsync]$ ^C</text></g><g id="g35"><text class="foreground" textLength="256" x="0">[lulu@farmtest keewebsync]$ exit</text></g></defs><g id="screen_view"><g><rect class="foreground" height="17" width="8" x="0" y="0"/><use y="0" xlink:href="#g1"/></g><g><rect class="foreground" height="17" width="8" x="224" y="476"/><use y="476" xlink:href="#g2"/></g><g><rect class="foreground" height="17" width="8" x="232" y="952"/><use y="952" xlink:href="#g3"/></g><g><rect class="foreground" height="17" width="8" x="240" y="1428"/><use y="1428" xlink:href="#g4"/></g><g><rect class="foreground" height="17" width="8" x="248" y="1904"/><use y="1904" xlink:href="#g5"/></g><g><rect class="foreground" height="17" width="8" x="256" y="2380"/><use y="2380" xlink:href="#g6"/></g><g><rect class="foreground" height="17" width="8" x="264" y="2856"/><use y="2856" xlink:href="#g7"/></g><g><rect class="foreground" height="17" width="8" x="272" y="3332"/><use y="3332" xlink:href="#g8"/></g><g><rect class="foreground" height="17" width="8" x="280" y="3808"/><use y="3808" xlink:href="#g9"/></g><g><rect class="foreground" height="17" width="8" x="288" y="4284"/><use y="4284" xlink:href="#g10"/></g><g><rect class="foreground" height="17" width="8" x="296" y="4760"/><use y="4760" xlink:href="#g11"/></g><g><rect class="foreground" height="17" width="8" x="304" y="5236"/><use y="5236" xlink:href="#g12"/></g><g><rect class="foreground" height="17" width="8" x="312" y="5712"/><use y="5712" xlink:href="#g13"/></g><g><rect class="foreground" height="17" width="8" x="320" y="6188"/><use y="6188" xlink:href="#g14"/></g><g><rect class="foreground" height="17" width="8" x="328" y="6664"/><use y="6664" xlink:href="#g15"/></g><g><rect class="foreground" height="17" width="8" x="336" y="7140"/><use y="7140" xlink:href="#g16"/></g><g><rect class="foreground" height="17" width="8" x="344" y="7616"/><use y="7616" xlink:href="#g17"/></g><g><rect class="foreground" height="17" width="8" x="352" y="8092"/><use y="8092" xlink:href="#g18"/></g><g><rect class="foreground" height="17" width="8" x="360" y="8568"/><use y="8568" xlink:href="#g19"/></g><g><rect class="foreground" height="17" width="8" x="384" y="9044"/><use y="9044" xlink:href="#g20"/></g><g><rect class="foreground" height="17" width="8" x="392" y="9520"/><use y="9520" xlink:href="#g21"/></g><g><rect class="foreground" height="17" width="8" x="400" y="9996"/><use y="9996" xlink:href="#g22"/></g><g><use y="10472" xlink:href="#g23"/><rect class="foreground" height="17" width="8" x="0" y="10489"/><use y="10489" xlink:href="#g1"/></g><g><use y="10948" xlink:href="#g23"/><rect class="foreground" height="17" width="8" x="192" y="10965"/><use y="10965" xlink:href="#g24"/></g><g><use y="11424" xlink:href="#g23"/><use y="11441" xlink:href="#g25"/><rect class="foreground" height="17" width="8" x="0" y="11458"/><use y="11458" xlink:href="#g1"/></g><g><use y="11900" xlink:href="#g23"/><use y="11917" xlink:href="#g25"/><use y="11934" xlink:href="#g26"/><rect class="foreground" height="17" width="8" x="0" y="11951"/><use y="11951" xlink:href="#g1"/></g><g><use y="12376" xlink:href="#g23"/><use y="12393" xlink:href="#g25"/><use y="12410" xlink:href="#g26"/><use y="12427" xlink:href="#g27"/><rect class="foreground" height="17" width="8" x="0" y="12444"/><use y="12444" xlink:href="#g1"/></g><g><use y="12852" xlink:href="#g23"/><use y="12869" xlink:href="#g25"/><use y="12886" xlink:href="#g26"/><use y="12903" xlink:href="#g28"/><rect class="foreground" height="17" width="8" x="0" y="12920"/><use y="12920" xlink:href="#g1"/></g><g><use y="13328" xlink:href="#g23"/><use y="13345" xlink:href="#g25"/><use y="13362" xlink:href="#g26"/><use y="13379" xlink:href="#g28"/><use y="13396" xlink:href="#g29"/><rect class="foreground" height="17" width="8" x="0" y="13413"/><use y="13413" xlink:href="#g1"/></g><g><use y="13804" xlink:href="#g23"/><use y="13821" xlink:href="#g25"/><use y="13838" xlink:href="#g26"/><use y="13855" xlink:href="#g28"/><use y="13872" xlink:href="#g30"/><use y="13906" xlink:href="#g31"/><use y="13923" xlink:href="#g32"/><use y="13957" xlink:href="#g31"/><use y="13974" xlink:href="#g32"/><use y="13991" xlink:href="#g33"/><rect class="foreground" height="17" width="8" x="0" y="14008"/><use y="14008" xlink:href="#g1"/></g><g><use y="14280" xlink:href="#g23"/><use y="14297" xlink:href="#g25"/><use y="14314" xlink:href="#g26"/><use y="14331" xlink:href="#g28"/><use y="14348" xlink:href="#g30"/><use y="14382" xlink:href="#g31"/><use y="14399" xlink:href="#g32"/><use y="14433" xlink:href="#g31"/><use y="14450" xlink:href="#g32"/><use y="14467" xlink:href="#g33"/><rect class="foreground" height="17" width="8" x="224" y="14484"/><use y="14484" xlink:href="#g2"/></g><g><use y="14756" xlink:href="#g23"/><use y="14773" xlink:href="#g25"/><use y="14790" xlink:href="#g26"/><use y="14807" xlink:href="#g28"/><use y="14824" xlink:href="#g30"/><use y="14858" xlink:href="#g31"/><use y="14875" xlink:href="#g32"/><use y="14909" xlink:href="#g31"/><use y="14926" xlink:href="#g32"/><use y="14943" xlink:href="#g33"/><use y="14960" xlink:href="#g34"/><rect class="foreground" height="17" width="8" x="224" y="14977"/><use y="14977" xlink:href="#g2"/></g><g><use y="15232" xlink:href="#g23"/><use y="15249" xlink:href="#g25"/><use y="15266" xlink:href="#g26"/><use y="15283" xlink:href="#g28"/><use y="15300" xlink:href="#g30"/><use y="15334" xlink:href="#g31"/><use y="15351" xlink:href="#g32"/><use y="15385" xlink:href="#g31"/><use y="15402" xlink:href="#g32"/><use y="15419" xlink:href="#g33"/><use y="15436" xlink:href="#g34"/><use y="15453" xlink:href="#g35"/><rect class="foreground" height="17" width="8" x="0" y="15470"/><use y="15470" xlink:href="#g1"/></g></g></svg>
+</svg>

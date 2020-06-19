@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="terminal" baseProfile="full" viewBox="0 0 856 461" width="856" version="1.1">
+    <defs>
+        <termtosvg:template_settings xmlns:termtosvg="https://github.com/nbedos/termtosvg">
+            <termtosvg:screen_geometry columns="107" rows="27"/>
+            <termtosvg:animation type="css"/>
+        </termtosvg:template_settings>
+        <style type="text/css" id="generated-style"><![CDATA[#screen {
+                font-family: 'DejaVu Sans Mono', monospace;
+                font-style: normal;
+                font-size: 14px;
+            }
+
+        text {
+            dominant-baseline: text-before-edge;
+            white-space: pre;
+        }
+    
+            :root {
+                --animation-duration: 17800ms;
+            }
+
+            @keyframes roll {
+                0.000%{transform:translateY(0px)}
+0.702%{transform:translateY(-476px)}
+5.758%{transform:translateY(-952px)}
+9.747%{transform:translateY(-1428px)}
+10.096%{transform:translateY(-1904px)}
+10.736%{transform:translateY(-2380px)}
+11.270%{transform:translateY(-2856px)}
+11.742%{transform:translateY(-3332px)}
+12.848%{transform:translateY(-3808px)}
+13.219%{transform:translateY(-4284px)}
+14.022%{transform:translateY(-4760px)}
+14.079%{transform:translateY(-5236px)}
+14.837%{transform:translateY(-5712px)}
+15.618%{transform:translateY(-6188px)}
+17.961%{transform:translateY(-6664px)}
+18.910%{transform:translateY(-7140px)}
+19.669%{transform:translateY(-7616px)}
+19.910%{transform:translateY(-8092px)}
+20.921%{transform:translateY(-8568px)}
+21.640%{transform:translateY(-9044px)}
+24.163%{transform:translateY(-9520px)}
+24.837%{transform:translateY(-9996px)}
+25.736%{transform:translateY(-10472px)}
+27.213%{transform:translateY(-10948px)}
+28.118%{transform:translateY(-11424px)}
+29.433%{transform:translateY(-11900px)}
+30.421%{transform:translateY(-12376px)}
+30.865%{transform:translateY(-12852px)}
+31.275%{transform:translateY(-13328px)}
+31.899%{transform:translateY(-13804px)}
+32.584%{transform:translateY(-14280px)}
+40.612%{transform:translateY(-14756px)}
+41.073%{transform:translateY(-15232px)}
+55.966%{transform:translateY(-15708px)}
+56.466%{transform:translateY(-16184px)}
+56.489%{transform:translateY(-16660px)}
+94.382%{transform:translateY(-17136px)}
+100.000%{transform:translateY(-17136px)}
+            }
+
+            #screen_view {
+                animation-duration: 17800ms;
+                animation-iteration-count:infinite;
+                animation-name:roll;
+                animation-timing-function: steps(1,end);
+                animation-fill-mode: forwards;
+            }
+        ]]></style>
+        <style type="text/css" id="user-style">
+            /* The colors defined below are the default 16 colors used for rendering text of the terminal. Adjust
+               them as needed.
+               PowerShell colors based on https://en.wikipedia.org/wiki/ANSI_escape_code#Colors */
+            .foreground {fill: #cccccc;}
+            .background {fill: #0c0c0c;}
+            .color0 {fill: #0c0c0c;}
+            .color1 {fill: #c50f1f;}
+            .color2 {fill: #13a10e;}
+            .color3 {fill: #c19c00;}
+            .color4 {fill: #0037da;}
+            .color5 {fill: #881798;}
+            .color6 {fill: #3a96dd;}
+            .color7 {fill: #cccccc;}
+            .color8 {fill: #767676;}
+            .color9 {fill: #e74856;}
+            .color10 {fill: #16c60c;}
+            .color11 {fill: #f9f1a5;}
+            .color12 {fill: #3b78ff;}
+            .color13 {fill: #b4009e;}
+            .color14 {fill: #61d6d6;}
+            .color15 {fill: #f2f2f2;}
+        </style>
+    </defs>
+    <svg id="screen" width="856" height="459" viewBox="0 0 856 459" preserveAspectRatio="xMidYMin slice">
+    <rect class="background" height="100%" width="100%" x="0" y="0"/><defs><g id="g1"><text class="background" textLength="8" x="0"> </text></g><g id="g2"><text class="foreground" textLength="224" x="0">[lulu@farmtest keewebsync]$ </text><text class="background" textLength="8" x="224"> </text></g><g id="g3"><text class="foreground" textLength="232" x="0">[lulu@farmtest keewebsync]$ s</text><text class="background" textLength="8" x="232"> </text></g><g id="g4"><text class="foreground" textLength="240" x="0">[lulu@farmtest keewebsync]$ su</text><text class="background" textLength="8" x="240"> </text></g><g id="g5"><text class="foreground" textLength="248" x="0">[lulu@farmtest keewebsync]$ sud</text><text class="background" textLength="8" x="248"> </text></g><g id="g6"><text class="foreground" textLength="256" x="0">[lulu@farmtest keewebsync]$ sudo</text><text class="background" textLength="8" x="256"> </text></g><g id="g7"><text class="foreground" textLength="264" x="0">[lulu@farmtest keewebsync]$ sudo </text><text class="background" textLength="8" x="264"> </text></g><g id="g8"><text class="foreground" textLength="272" x="0">[lulu@farmtest keewebsync]$ sudo d</text><text class="background" textLength="8" x="272"> </text></g><g id="g9"><text class="foreground" textLength="280" x="0">[lulu@farmtest keewebsync]$ sudo do</text><text class="background" textLength="8" x="280"> </text></g><g id="g10"><text class="foreground" textLength="288" x="0">[lulu@farmtest keewebsync]$ sudo doc</text><text class="background" textLength="8" x="288"> </text></g><g id="g11"><text class="foreground" textLength="296" x="0">[lulu@farmtest keewebsync]$ sudo dock</text><text class="background" textLength="8" x="296"> </text></g><g id="g12"><text class="foreground" textLength="304" x="0">[lulu@farmtest keewebsync]$ sudo docke</text><text class="background" textLength="8" x="304"> </text></g><g id="g13"><text class="foreground" textLength="312" x="0">[lulu@farmtest keewebsync]$ sudo docker</text><text class="background" textLength="8" x="312"> </text></g><g id="g14"><text class="foreground" textLength="320" x="0">[lulu@farmtest keewebsync]$ sudo docker </text><text class="background" textLength="8" x="320"> </text></g><g id="g15"><text class="foreground" textLength="328" x="0">[lulu@farmtest keewebsync]$ sudo docker l</text><text class="background" textLength="8" x="328"> </text></g><g id="g16"><text class="foreground" textLength="336" x="0">[lulu@farmtest keewebsync]$ sudo docker lo</text><text class="background" textLength="8" x="336"> </text></g><g id="g17"><text class="foreground" textLength="344" x="0">[lulu@farmtest keewebsync]$ sudo docker log</text><text class="background" textLength="8" x="344"> </text></g><g id="g18"><text class="foreground" textLength="352" x="0">[lulu@farmtest keewebsync]$ sudo docker logs</text><text class="background" textLength="8" x="352"> </text></g><g id="g19"><text class="foreground" textLength="360" x="0">[lulu@farmtest keewebsync]$ sudo docker logs </text><text class="background" textLength="8" x="360"> </text></g><g id="g20"><text class="foreground" textLength="368" x="0">[lulu@farmtest keewebsync]$ sudo docker logs d</text><text class="background" textLength="8" x="368"> </text></g><g id="g21"><text class="foreground" textLength="376" x="0">[lulu@farmtest keewebsync]$ sudo docker logs do</text><text class="background" textLength="8" x="376"> </text></g><g id="g22"><text class="foreground" textLength="384" x="0">[lulu@farmtest keewebsync]$ sudo docker logs dor</text><text class="background" textLength="8" x="384"> </text></g><g id="g23"><text class="foreground" textLength="376" x="0">[lulu@farmtest keewebsync]$ sudo docker logs do</text><text class="background" textLength="8" x="376"> </text><text class="foreground" textLength="472" x="384">                                                           </text></g><g id="g24"><text class="foreground" textLength="368" x="0">[lulu@farmtest keewebsync]$ sudo docker logs d</text><text class="background" textLength="8" x="368"> </text><text class="foreground" textLength="480" x="376">                                                            </text></g><g id="g25"><text class="foreground" textLength="376" x="0">[lulu@farmtest keewebsync]$ sudo docker logs dr</text><text class="background" textLength="8" x="376"> </text><text class="foreground" textLength="472" x="384">                                                           </text></g><g id="g26"><text class="foreground" textLength="384" x="0">[lulu@farmtest keewebsync]$ sudo docker logs dro</text><text class="background" textLength="8" x="384"> </text><text class="foreground" textLength="464" x="392">                                                          </text></g><g id="g27"><text class="foreground" textLength="392" x="0">[lulu@farmtest keewebsync]$ sudo docker logs drop</text><text class="background" textLength="8" x="392"> </text><text class="foreground" textLength="456" x="400">                                                         </text></g><g id="g28"><text class="foreground" textLength="400" x="0">[lulu@farmtest keewebsync]$ sudo docker logs dropb</text><text class="background" textLength="8" x="400"> </text><text class="foreground" textLength="448" x="408">                                                        </text></g><g id="g29"><text class="foreground" textLength="408" x="0">[lulu@farmtest keewebsync]$ sudo docker logs dropbo</text><text class="background" textLength="8" x="408"> </text><text class="foreground" textLength="440" x="416">                                                       </text></g><g id="g30"><text class="foreground" textLength="416" x="0">[lulu@farmtest keewebsync]$ sudo docker logs dropbox</text><text class="background" textLength="8" x="416"> </text><text class="foreground" textLength="432" x="424">                                                      </text></g><g id="g31"><text class="foreground" textLength="856" x="0">[lulu@farmtest keewebsync]$ sudo docker logs dropbox                                                       </text></g><g id="g32"><text class="foreground" textLength="192" x="0">[sudo] senha para lulu: </text><text class="background" textLength="8" x="192"> </text></g><g id="g33"><text class="foreground" textLength="192" x="0">[sudo] senha para lulu: </text></g><g id="g34"><text class="foreground" textLength="856" x="0">dropbox: load fq extension '/opt/dropbox/bin/dropbox-lnx.x86_64-99.4.501/wrapt._wrappers.cpython-37m-x86_64</text></g><g id="g35"><text class="foreground" textLength="112" x="0">-linux-gnu.so'</text></g><g id="g36"><text class="foreground" textLength="856" x="0">dropbox: load fq extension '/opt/dropbox/bin/dropbox-lnx.x86_64-99.4.501/PyQt5.QtWidgets.cpython-37m-x86_64</text></g><g id="g37"><text class="foreground" textLength="856" x="0">dropbox: load fq extension '/opt/dropbox/bin/dropbox-lnx.x86_64-99.4.501/PyQt5.QtCore.cpython-37m-x86_64-li</text></g><g id="g38"><text class="foreground" textLength="88" x="0">nux-gnu.so'</text></g><g id="g39"><text class="foreground" textLength="856" x="0">dropbox: load fq extension '/opt/dropbox/bin/dropbox-lnx.x86_64-99.4.501/PyQt5.QtGui.cpython-37m-x86_64-lin</text></g><g id="g40"><text class="foreground" textLength="80" x="0">ux-gnu.so'</text></g><g id="g41"><text class="foreground" textLength="472" x="0">Este computador no est vinculado  nenhuma conta do Dropbox.</text></g><g id="g42"><text class="foreground" textLength="856" x="0">Acesse https://www.dropbox.com/cli_link_nonce?nonce=008ea19fbbdf9c58d3137e66aeb6d42c para vincular este dis</text></g><g id="g43"><text class="foreground" textLength="72" x="0">positivo.</text></g><g id="g44"><text class="foreground" textLength="256" x="0">[lulu@farmtest keewebsync]$ exit</text></g></defs><g id="screen_view"><g><rect class="foreground" height="17" width="8" x="0" y="0"/><use y="0" xlink:href="#g1"/></g><g><rect class="foreground" height="17" width="8" x="224" y="476"/><use y="476" xlink:href="#g2"/></g><g><rect class="foreground" height="17" width="8" x="224" y="952"/><use y="952" xlink:href="#g2"/></g><g><rect class="foreground" height="17" width="8" x="232" y="1428"/><use y="1428" xlink:href="#g3"/></g><g><rect class="foreground" height="17" width="8" x="240" y="1904"/><use y="1904" xlink:href="#g4"/></g><g><rect class="foreground" height="17" width="8" x="248" y="2380"/><use y="2380" xlink:href="#g5"/></g><g><rect class="foreground" height="17" width="8" x="256" y="2856"/><use y="2856" xlink:href="#g6"/></g><g><rect class="foreground" height="17" width="8" x="264" y="3332"/><use y="3332" xlink:href="#g7"/></g><g><rect class="foreground" height="17" width="8" x="272" y="3808"/><use y="3808" xlink:href="#g8"/></g><g><rect class="foreground" height="17" width="8" x="280" y="4284"/><use y="4284" xlink:href="#g9"/></g><g><rect class="foreground" height="17" width="8" x="288" y="4760"/><use y="4760" xlink:href="#g10"/></g><g><rect class="foreground" height="17" width="8" x="296" y="5236"/><use y="5236" xlink:href="#g11"/></g><g><rect class="foreground" height="17" width="8" x="304" y="5712"/><use y="5712" xlink:href="#g12"/></g><g><rect class="foreground" height="17" width="8" x="312" y="6188"/><use y="6188" xlink:href="#g13"/></g><g><rect class="foreground" height="17" width="8" x="320" y="6664"/><use y="6664" xlink:href="#g14"/></g><g><rect class="foreground" height="17" width="8" x="328" y="7140"/><use y="7140" xlink:href="#g15"/></g><g><rect class="foreground" height="17" width="8" x="336" y="7616"/><use y="7616" xlink:href="#g16"/></g><g><rect class="foreground" height="17" width="8" x="344" y="8092"/><use y="8092" xlink:href="#g17"/></g><g><rect class="foreground" height="17" width="8" x="352" y="8568"/><use y="8568" xlink:href="#g18"/></g><g><rect class="foreground" height="17" width="8" x="360" y="9044"/><use y="9044" xlink:href="#g19"/></g><g><rect class="foreground" height="17" width="8" x="368" y="9520"/><use y="9520" xlink:href="#g20"/></g><g><rect class="foreground" height="17" width="8" x="376" y="9996"/><use y="9996" xlink:href="#g21"/></g><g><rect class="foreground" height="17" width="8" x="384" y="10472"/><use y="10472" xlink:href="#g22"/></g><g><rect class="foreground" height="17" width="8" x="376" y="10948"/><use y="10948" xlink:href="#g23"/></g><g><rect class="foreground" height="17" width="8" x="368" y="11424"/><use y="11424" xlink:href="#g24"/></g><g><rect class="foreground" height="17" width="8" x="376" y="11900"/><use y="11900" xlink:href="#g25"/></g><g><rect class="foreground" height="17" width="8" x="384" y="12376"/><use y="12376" xlink:href="#g26"/></g><g><rect class="foreground" height="17" width="8" x="392" y="12852"/><use y="12852" xlink:href="#g27"/></g><g><rect class="foreground" height="17" width="8" x="400" y="13328"/><use y="13328" xlink:href="#g28"/></g><g><rect class="foreground" height="17" width="8" x="408" y="13804"/><use y="13804" xlink:href="#g29"/></g><g><rect class="foreground" height="17" width="8" x="416" y="14280"/><use y="14280" xlink:href="#g30"/></g><g><use y="14756" xlink:href="#g31"/><rect class="foreground" height="17" width="8" x="0" y="14773"/><use y="14773" xlink:href="#g1"/></g><g><use y="15232" xlink:href="#g31"/><rect class="foreground" height="17" width="8" x="192" y="15249"/><use y="15249" xlink:href="#g32"/></g><g><use y="15708" xlink:href="#g31"/><use y="15725" xlink:href="#g33"/><rect class="foreground" height="17" width="8" x="0" y="15742"/><use y="15742" xlink:href="#g1"/></g><g><use y="16184" xlink:href="#g34"/><use y="16201" xlink:href="#g35"/><use y="16218" xlink:href="#g36"/><use y="16235" xlink:href="#g35"/><use y="16252" xlink:href="#g37"/><use y="16269" xlink:href="#g38"/><use y="16286" xlink:href="#g39"/><use y="16303" xlink:href="#g40"/><use y="16320" xlink:href="#g41"/><use y="16337" xlink:href="#g42"/><use y="16354" xlink:href="#g43"/><use y="16371" xlink:href="#g41"/><use y="16388" xlink:href="#g42"/><use y="16405" xlink:href="#g43"/><use y="16422" xlink:href="#g41"/><use y="16439" xlink:href="#g42"/><use y="16456" xlink:href="#g43"/><use y="16473" xlink:href="#g41"/><use y="16490" xlink:href="#g42"/><use y="16507" xlink:href="#g43"/><use y="16524" xlink:href="#g41"/><use y="16541" xlink:href="#g42"/><use y="16558" xlink:href="#g43"/><use y="16575" xlink:href="#g41"/><use y="16592" xlink:href="#g42"/><use y="16609" xlink:href="#g43"/><rect class="foreground" height="17" width="8" x="0" y="16626"/><use y="16626" xlink:href="#g1"/></g><g><use y="16660" xlink:href="#g34"/><use y="16677" xlink:href="#g35"/><use y="16694" xlink:href="#g36"/><use y="16711" xlink:href="#g35"/><use y="16728" xlink:href="#g37"/><use y="16745" xlink:href="#g38"/><use y="16762" xlink:href="#g39"/><use y="16779" xlink:href="#g40"/><use y="16796" xlink:href="#g41"/><use y="16813" xlink:href="#g42"/><use y="16830" xlink:href="#g43"/><use y="16847" xlink:href="#g41"/><use y="16864" xlink:href="#g42"/><use y="16881" xlink:href="#g43"/><use y="16898" xlink:href="#g41"/><use y="16915" xlink:href="#g42"/><use y="16932" xlink:href="#g43"/><use y="16949" xlink:href="#g41"/><use y="16966" xlink:href="#g42"/><use y="16983" xlink:href="#g43"/><use y="17000" xlink:href="#g41"/><use y="17017" xlink:href="#g42"/><use y="17034" xlink:href="#g43"/><use y="17051" xlink:href="#g41"/><use y="17068" xlink:href="#g42"/><use y="17085" xlink:href="#g43"/><rect class="foreground" height="17" width="8" x="224" y="17102"/><use y="17102" xlink:href="#g2"/></g><g><use y="17136" xlink:href="#g35"/><use y="17153" xlink:href="#g36"/><use y="17170" xlink:href="#g35"/><use y="17187" xlink:href="#g37"/><use y="17204" xlink:href="#g38"/><use y="17221" xlink:href="#g39"/><use y="17238" xlink:href="#g40"/><use y="17255" xlink:href="#g41"/><use y="17272" xlink:href="#g42"/><use y="17289" xlink:href="#g43"/><use y="17306" xlink:href="#g41"/><use y="17323" xlink:href="#g42"/><use y="17340" xlink:href="#g43"/><use y="17357" xlink:href="#g41"/><use y="17374" xlink:href="#g42"/><use y="17391" xlink:href="#g43"/><use y="17408" xlink:href="#g41"/><use y="17425" xlink:href="#g42"/><use y="17442" xlink:href="#g43"/><use y="17459" xlink:href="#g41"/><use y="17476" xlink:href="#g42"/><use y="17493" xlink:href="#g43"/><use y="17510" xlink:href="#g41"/><use y="17527" xlink:href="#g42"/><use y="17544" xlink:href="#g43"/><use y="17561" xlink:href="#g44"/><rect class="foreground" height="17" width="8" x="0" y="17578"/><use y="17578" xlink:href="#g1"/></g></g></svg>
+</svg>
