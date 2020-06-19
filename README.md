@@ -165,6 +165,12 @@ The localhost can be changed to a name that can be included in the local DNS ser
 
 For added security, you can still add a complementary key file to open the kdbx file. Ask the user who manipulates the password bank to create a key file to open the file, in addition to the symmetric password entered. Then, this file can be shared offline for everyone who will have access to the bank, further increasing the security of the solution.
 
+Future works:
+
+- [ ] Change dropbox container to rclone GUI for volume management.
+
+- [ ] Enable support for multi cloud services (with rclone).
+
 It is. Questions and suggestions, open an issue or a PR.
 
 :)
