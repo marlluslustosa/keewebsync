@@ -1,8 +1,12 @@
 ## Keewebsync
 
-Low cost and secure solution for password sync via dropbox with keeweb, through LDAP authentication, managing password db in Kdbx (Keepass format).
+---
 
-#### How it works?
+Low cost and secure solution for password sync via dropbox with [keeweb](https://keeweb.info/), through LDAP authentication, managing password db in Kdbx ([Keepass](https://keepassxc.org/) format).
+
+This work is a mix of: [Keeweb](https://github.com/viossat/docker-keeweb) and[Docker-Dropbox](https://github.com/otherguy/docker-dropbox), 
+
+### How it works?
 
 ##### Problem
 
