@@ -1,8 +1,6 @@
-## Keewebsync
+## :whale: Keewebsync
 
 Low cost and secure solution for password sync via dropbox with [keeweb](https://keeweb.info/), through LDAP authentication, managing password db in Kdbx ([Keepass](https://keepassxc.org/) format).
-
-This work is a mix of: [Keeweb](https://github.com/viossat/docker-keeweb) and[Docker-Dropbox](https://github.com/otherguy/docker-dropbox).
 
 ## How it works?
 
@@ -175,7 +173,7 @@ For added security, you can still add a complementary key file to open the kdbx 
 
 - [ ] Enable support for multi cloud services (with rclone).
 
-## 💅 Inspiration
+## :nail_care: Inspiration
 
 Originally forked from [`otherguy/docker-dropbox`](https://github.com/otherguy/docker-dropbox). Thank you
 [@janeczku](https://github.com/janeczku) and [@viossat](https://github.com/viossat/docker-keeweb) for your works! 
