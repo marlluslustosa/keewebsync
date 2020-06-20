@@ -1,11 +1,9 @@
 ## :whale: Keewebsync
 [![GitHub issues](https://img.shields.io/github/issues/marlluslustosa/keewebsync)][issues]
-[![Travis](https://img.shields.io/travis/com/marlluslustosa/keewebsync)][travis]
 [![GitHub stars](https://img.shields.io/github/stars/marlluslustosa/keewebsync?color=violet)][stargazers]
 [![GPL License](https://img.shields.io/github/license/marlluslustosa/keewebsync?color=orange)][license]
 
 [license]: https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)
-[travis]: https://travis-ci.com/marlluslustosa/keewebsync
 [stargazers]: https://github.com/marlluslustosa/keewebsync/stargazers
 [issues]: https://github.com/marlluslustosa/keewebsync/issues
 
