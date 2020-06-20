@@ -26,6 +26,8 @@ This solution works with the following requirements, for you who are building th
 
 - Docker host available for creating micro services.
 
+## Build
+
 ### Generating .pem file (HTTPS)
 
 Generate self-signed certificates and keys that will be part of the keewebsync container settings: Change to their respective configuration.
@@ -37,7 +39,7 @@ $ cat keewebsync.key keewebsync.crt > keewebsync.pem
 
 ![Example](./docs/tuto-openssl.svg)
 
-### Build (generating the images)
+### Generating images
 
 Clone repository
 
