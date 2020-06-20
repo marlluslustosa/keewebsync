@@ -175,6 +175,15 @@ For added security, you can still add a complementary key file to open the kdbx 
 
 - [ ] Enable support for multi cloud services (with rclone).
 
+## 💅 Inspiration
+
+Originally forked from [`otherguy/docker-dropbox`](https://github.com/otherguy/docker-dropbox). Thank you
+[@janeczku](https://github.com/janeczku) and [@viossat](https://github.com/viossat/docker-keeweb) for your works! 
+
+## 🚧 Contributing
+
+Bug reports and pull requests are welcome on GitHub at [`marlluslustosa/keewebsync`](https://github.com/marlluslustosa/keewebsync).
+
 It is. Questions and suggestions, open an issue or a PR.
 
-:)
+:wink:
