@@ -1,18 +1,16 @@
 ## Keewebsync
 
----
-
 Low cost and secure solution for password sync via dropbox with [keeweb](https://keeweb.info/), through LDAP authentication, managing password db in Kdbx ([Keepass](https://keepassxc.org/) format).
 
-This work is a mix of: [Keeweb](https://github.com/viossat/docker-keeweb) and[Docker-Dropbox](https://github.com/otherguy/docker-dropbox), 
+This work is a mix of: [Keeweb](https://github.com/viossat/docker-keeweb) and[Docker-Dropbox](https://github.com/otherguy/docker-dropbox).
 
-### How it works?
+## How it works?
 
-##### Problem
+### Problem
 
 Your boss or someone with permissions to edit a kdbx password database (Keeepass) shares that bank via a personal dropbox, but he wants all division employees to access the file but not be able to edit it, moreover, for security issues, he wants that the use whether via web (internal and external) with front-end technologies and does not want the opening of the bank to run in back-end language, such as PHP or Python. Other than that, he still want to have the access registry to the bank de dados, such as time and user. The organization has an LDAP server for internal employee authentication. Many requirements huh!
 
-##### Solution
+### Solution
 
 <img src="./docs/flow.jpg" title="" alt="flow" width="782">
 
@@ -28,7 +26,7 @@ This solution works with the following requirements, for you who are building th
 
 - Docker host available for creating micro services.
 
-#### Generating .pem file (HTTPS)
+### Generating .pem file (HTTPS)
 
 Generate self-signed certificates and keys that will be part of the keewebsync container settings: Change to their respective configuration.
 
@@ -39,7 +37,7 @@ $ cat keewebsync.key keewebsync.crt > keewebsync.pem
 
 ![Example](./docs/tuto-openssl.svg)
 
-#### Build (generating the images)
+### Build (generating the images)
 
 Clone repository
 
@@ -169,7 +167,7 @@ The localhost can be changed to a name that can be included in the local DNS ser
 
 For added security, you can still add a complementary key file to open the kdbx file. Ask the user who manipulates the password bank to create a key file to open the file, in addition to the symmetric password entered. Then, this file can be shared offline for everyone who will have access to the bank, further increasing the security of the solution.
 
-#### Future works:
+### Future works:
 
 - [ ] Change dropbox container to rclone GUI for volume management.
 
